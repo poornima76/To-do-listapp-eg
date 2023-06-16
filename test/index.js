@@ -11,12 +11,20 @@ console.log(c);
 // alert('hello');
 // let age = prompt('How old r u?');
 // console.log(age);
-const isOld = confirm("R u old?");
-console.log(isOld);
+// const isOld = confirm("R u old?");
+// console.log(isOld);
 
 // if syntax:
 
 let x = 1;
+const y = 2;
 if (x ==1){
     console.log('x is 1');
+}
+if(x ===1 && y === 2){
+    console.log("&& operator tested");
+}
+
+if ((x = 1) || (y = 3)){
+    console.log('|| operator tested');
 }
