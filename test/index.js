@@ -13,3 +13,10 @@ console.log(c);
 // console.log(age);
 const isOld = confirm("R u old?");
 console.log(isOld);
+
+// if syntax:
+
+let x = 1;
+if (x ==1){
+    console.log('x is 1');
+}
