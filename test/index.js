@@ -31,3 +31,11 @@ if ((x = 1) || (y = 3)){
 if(x != 2){
     console.log("not check");
 }
+if(x === 1){
+    console.log("x is 1");
+}
+else{
+    console.log("Not 1");
+}
+let result = x === 1? "x is 1" : "x is not 1";
+
