@@ -43,4 +43,12 @@ let result = x === 1? "x is 1" : "x is not 1";
 for(let i=0; i<10; i++){
     console.log("Kitty cat");
 }
-
+// ES5 way
+// function add(a,b){
+//     console.log(a+b);
+// }
+//ES6 way
+const add =(a,b) =>{
+    console.log(a+b);
+};
+add(2,3);
