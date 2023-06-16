@@ -37,5 +37,10 @@ if(x === 1){
 else{
     console.log("Not 1");
 }
+// ternary operator
 let result = x === 1? "x is 1" : "x is not 1";
+
+for(let i=0; i<10; i++){
+    console.log("Kitty cat");
+}
 
