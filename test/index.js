@@ -28,3 +28,6 @@ if(x ===1 && y === 2){
 if ((x = 1) || (y = 3)){
     console.log('|| operator tested');
 }
+if(x != 2){
+    console.log("not check");
+}
