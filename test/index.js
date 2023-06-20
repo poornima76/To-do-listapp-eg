@@ -58,7 +58,8 @@ const person = {
     ln: 'nim',
     fullName: () =>{
         // return person.fn + " "+ person.ln;
-        return `${person.fn} ${person.ln}`;  // `` is used to populate the ${}
+        return `${person.fn} ${person.ln}`;  // `` is used to populate the ${} 
+        // falls under repl
     },
 };
 // two ways to access the properties of the object
@@ -67,3 +68,9 @@ console.log(person['fn']);
 
 const nam = person.fullName();
 console.log(nam);
+
+// const arr = [];
+// const arr = new Array();
+cars = ['Saab','Volvo', 'BMW', 46, {name: 'Alto', company:'Suzuki'}];
+let fcar = cars[0];
+console.log(fcar);
