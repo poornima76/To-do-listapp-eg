@@ -87,18 +87,18 @@
 
 
 // User model
-const user = {
-    firstName: 'john',
-    lastName: 'doe',
-    email: "abc@gmail.com",
-    address: 'chabahil',
-    password: 'dwjidwjds',
-    phone : 98927827
-};
+// const user = {
+//     firstName: 'john',
+//     lastName: 'doe',
+//     email: "abc@gmail.com",
+//     address: 'chabahil',
+//     password: 'dwjidwjds',
+//     phone : 98927827
+// };
 
-// User list
-const{ password, phone, ...rest} = user;
-console.log({rest});
+// // User list
+// const{ password, phone, ...rest} = user;
+// console.log({rest});
 //Output:
 
 // {
@@ -110,13 +110,17 @@ console.log({rest});
 //     }
 //   }
 
-const arra = ['saab', 'volvo', 'bmw'];
-const [first, ...other] = arra;
-console.log(other.toString());
+// const arra = ['saab', 'volvo', 'bmw'];
+// const [first, ...other] = arra;
+// console.log(other.toString());
 
-const myFunction = (data) => {
-    console.log("Hi there ", data);
+// const myFunction = (data) => {
+//     console.log("Hi there ", data);
+// };
+// arra.map(myFunction).toString();
+
+const myName = (salutation, name) =>{
+    if(salutation === '') salutation = salutation || 'Mr';
+    console.log(`${salutation} ${name}`);
 };
-arra.map(myFunction).toString();
-
-
+myName('','John');
