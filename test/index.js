@@ -52,3 +52,18 @@ const add =(a,b) =>{
     console.log(a+b);
 };
 add(2,3);
+
+const person = {
+    fn: 'Poooh',
+    ln: 'nim',
+    fullName: () =>{
+        // return person.fn + " "+ person.ln;
+        return `${person.fn} ${person.ln}`;  // `` is used to populate the ${}
+    },
+};
+// two ways to access the properties of the object
+console.log(person.fn);
+console.log(person['fn']);
+
+const nam = person.fullName();
+console.log(nam);
