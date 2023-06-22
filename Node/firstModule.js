@@ -1,0 +1,3 @@
+exports.GetDate = ()=>{
+    return Date();
+}
